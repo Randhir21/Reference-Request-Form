@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body class="full_body">
+    <div class="container body_sec">
+      <div class="header">
+        <h4>Reference Request Form</h4>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6">
+            <div class="first_sec">
+              <div class="form-group">
+                <label>PI NO#</label
+                ><input
+                  type="text"
+                  class="form-control"
+                  id="pino"
+                  placeholder="PI #"
+                />
+              </div>
+              <div class="form-group">
+                <label for="sel1">Dispatch From*</label>
+                <select class="form-control" id="sel1">
+                  <option hidden>select</option>
+                  <option>Delhi</option>
+                  <option>Noida</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Party Name</label
+                ><input
+                  type="text"
+                  class="form-control"
+                  id="p-name"
+                  placeholder="Party Name"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6">
+            <div class="first_sec">
+              <div class="form-group">
+                <label>PH NO.</label
+                ><input
+                  type="tel"
+                  class="form-control"
+                  id="ph-no"
+                  placeholder="Phone No."
+                />
+              </div>
+              <div class="form-group">
+                <label for="sel1">Manager*</label>
+                <select class="form-control" id="sel1">
+                  <option hidden>select</option>
+                  <option>Mohan</option>
+                  <option>Ravi</option>
+                  <option>Prashant</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="sel1">Folloewd By*</label>
+                <select class="form-control" id="sel1">
+                  <option hidden>select</option>
+                  <option>Pankaj</option>
+                  <option>Suman</option>
+                  <option>Shalu</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second-sec">
+          <div class=" " style="display: flex">
+            <h4>Invoice</h4>
+            <button class="btn" style="float: right">Add Row</button>
+          </div>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Invoice</th>
+                <th>QTY</th>
+                <th>Amount(GST)</th>
+                <th>+</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="p-1">
+                <td><input type="date" class="form-control" id="email" /></td>
+                <td>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="text"
+                    placeholder="Invoice"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="number"
+                    placeholder="QTY"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="number"
+                    placeholder="Amount"
+                  />
+                </td>
+                <td><button class="btn">-</button></td>
+                <td><button class="btn">-</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- ******* -->
+        <div class="second-sec">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Time Of Entry</th>
+                <th>Type Of Person</th>
+                <th>Name</th>
+                <th>Number</th>
+                <th>Type Of Incentive</th>
+                <th>Data Entered</th>
+                <th>Final Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="p-1">
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+              </tr>
+              <tr class="p-1">
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+              </tr>
+              <tr class="p-1">
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+                <td><input type="email" class="form-control" id="email" /></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- ****** -->
+        </div>
+      </form>
+    </div>
+
+    <script>
+      let table_count = 1;
+      const iv_table = document.querySelector(".invoice-table");
+      const iv_child = document.querySelector(".iv_child");
+      console.log(iv_child);
+
+      iv_table.append(iv_child);
+
+      for (let index = 0; index < 1; index++) {}
+    </script>
+  </body>
+</html>
